@@ -1,15 +1,13 @@
 {
-    "manifest_version": 3,
+    "manifest_version": 2,
     "name": "cryptocoin-chrome-extension",
     "description": "CryptoCoin Chrome Extension",
     "version": "0.0.1",
-    "author": "Sonecaa",
-    "content_security_policy": {
-        "extension_pages": "script-src 'self'; object-src 'self'"
-    },
-    "action": {
-      "default_title": "CryptoCoin Chrome Extension",
-      "default_popup": "init.html"
+    "author": "mamanogit",
+    "content_security_policy" : "script-src 'self' https://ajax.googleapis.com;      object-src 'self'",
+    "browser_action": {
+      "default_title": "",
+      "default_popup": "main.html"
     },
     "content_scripts": [
       {
@@ -23,6 +21,11 @@
       }
     ],
     "permissions": [
-      "activeTab"
+    "tabs",
+    "notifications",
+    "http://*/",
+    "https://*/",
+    "https://files.coinmarketcap.com",
+    "https://ajax.googleapis.com/"
     ]
   }
