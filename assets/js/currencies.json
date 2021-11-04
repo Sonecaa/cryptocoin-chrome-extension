@@ -1,10 +1,27 @@
 [
     {
         "name": "Bitcoin",
-        "key": "1"
+        "key": "1",
+        "favorite": "true"
     },
     {
         "name": "ShibaINU",
-        "key": "5994"
+        "key": "5994",
+        "favorite": "true"
+    },
+    {
+        "name": "BitTorrent",
+        "key": "3718",
+        "favorite": "false"
+    },
+    {
+        "name": "Axie Infinity",
+        "key": "6783",
+        "favorite": "false"
+    },
+    {
+        "name": "Chiliz",
+        "key": "4066",
+        "favorite": "false"
     }
 ]

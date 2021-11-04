@@ -8,7 +8,9 @@ jQuery(document).ready(function () {
 
         console.log(data);
         jQuery.each(data, function (index, obj) {
-            dropdown.append(jQuery("<option />").val(obj.key).text(obj.name));
+
+            let favorite = obj.favorite === "true" ? " ★" : "";
+            dropdown.append(jQuery("<option />").val(obj.key).text(obj.name + favorite));
             
             if(obj.key === '1') {
                 jQuery('#crypto-box').append('<div style="display:block;" class="coinmarketcap-currency-widget" data-currencyid="'+ obj.key +'" data-base="USD" data-secondary="" data-ticker="true" data-rank="false" data-marketcap="false" data-volume="false" data-statsticker="false" data-stats="USD"></div>');
