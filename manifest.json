@@ -9,25 +9,18 @@
       "default_title": "",
       "default_popup": "main.html"
     },
+    "storage": {
+      "managed_schema": "schema.json"
+    },
     "icons": { 
       "16": "assets/img/icon16.png"
     },
-    "content_scripts": [
-      {
-        "matches": [
-          "<all_urls>"
-        ],
-        "all_frames": true,
-        "js": [
-          "assets/js/main.js"
-        ]
-      }
-    ],
     "permissions": [
-    "tabs",
-    "notifications",
-    "http://*/",
-    "https://*/",
-    "https://ajax.googleapis.com/"
+      "storage",
+      "tabs",
+      "notifications",
+      "http://*/",
+      "https://*/",
+      "https://ajax.googleapis.com/"
     ]
   }

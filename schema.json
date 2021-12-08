@@ -1,0 +1,17 @@
+{
+    "type": "object",
+    "properties": {
+        "archives": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "object",
+              "properties": {
+                "currencyid": { "type": "string" },
+                "value": { "type": "string" },
+                "hour": { "type": "string" },
+                "date": { "type": "string" }
+              }
+            }
+          }
+    }
+}
