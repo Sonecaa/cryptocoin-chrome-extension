@@ -10,6 +10,41 @@
         "favorite": "true"
     },
     {
+        "name": "Binance Coin",
+        "key": "1839",
+        "favorite": "false"
+    },
+    {
+        "name": "Lite Coin",
+        "key": "2",
+        "favorite": "false"
+    },
+    {
+        "name": "Chiliz",
+        "key": "4066",
+        "favorite": "false"
+    },
+    {
+        "name": "Binance Coin",
+        "key": "1839",
+        "favorite": "false"
+    },
+    {
+        "name": "Lite Coin",
+        "key": "2",
+        "favorite": "false"
+    },
+    {
+        "name": "Binance Coin",
+        "key": "1839",
+        "favorite": "false"
+    },
+    {
+        "name": "Lite Coin",
+        "key": "2",
+        "favorite": "false"
+    },
+    {
         "name": "BitTorrent",
         "key": "3718",
         "favorite": "false"
@@ -17,11 +52,6 @@
     {
         "name": "Axie Infinity",
         "key": "6783",
-        "favorite": "false"
-    },
-    {
-        "name": "Chiliz",
-        "key": "4066",
         "favorite": "false"
     }
 ]
