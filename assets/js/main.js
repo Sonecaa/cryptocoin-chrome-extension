@@ -5,7 +5,7 @@ jQuery(document).ready(function () {
 
     let dropdown = jQuery("#currency-select");
 
-    jQuery.getJSON("/assets/js/currencies.json", function (data) {
+    jQuery.getJSON("/currencies.json", function (data) {
 
         jQuery.each(data, function (index, obj) {
 
